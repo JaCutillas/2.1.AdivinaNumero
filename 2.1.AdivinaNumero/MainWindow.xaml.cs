@@ -22,6 +22,7 @@ namespace _2._1.AdivinaNumero
         private void ReiniciarButton_Click(object sender, RoutedEventArgs e)
         {
             numeroSecreto = seed.Next(1, 101);
+            InputTextBox.Text = String.Empty;
             AssertTextBlock.Text = "Empezamos otra vez, tengo un nuevo numero";
         }
 
