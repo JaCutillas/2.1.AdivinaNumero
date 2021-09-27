@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_2._1.AdivinaNumero"
         mc:Ignorable="d"
-        Title="MainWindow" Height="170.493" Width="267.619">
+        Title="Numero secreto" Height="170.493" Width="267.619"
+         Icon="assets/Sprittgo.ico">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="7*"/>
